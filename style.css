@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Young+Serif&display=swap');
+
+body{
+    margin-top: 0px;
+    margin-left:  auto;
+    margin-right: auto;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Navigation Bar*/
+
+.navbar-brand{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+}
+.navbar-brand img{
+    width: 20px;
+    height: 20px;
+    
+}
+a{
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;  
+    color: black; 
+}
+.header_section {
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    color: black;
+    justify-content: space-between;
+}
+
+nav {
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    align-items: center;
+}
+.navbar{
+    margin-left: 200px;
+    margin-right: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    list-style: none;
+    padding-top: 5px;
+}
+
+/* Slider Section */ 
+
+
+h1, h2{
+    font-family: 'young serif';    
+}
+.slider_section {
+    display: flex;
+    background-position: bottom;
+    background-size: cover;
+    justify-content: space-between;
+}
+.slider_section .detailsbox {
+    padding: 90px;
+    padding-bottom: 0px;
+}
+.slider_section .detailsbox h1{
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    color: blue;
+    font-size: 80px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.slider_section .detailsbox p{
+    padding: 10px;
+    width: 590px;
+    height: auto;
+    top: 493px;
+    font-weight: 400;
+    font-size: 24px;
+    align-items: center;
+    letter-spacing: 0.5px;
+    color: #7c7b7b;
+}
+.slider_section .detailsbox button{
+    width: 120px;
+    height: 60px;
+    background-color: blue;
+    color: white;
+    font-family: 'poppins';
+    border-radius: 10px;
+    margin-left: 50px;
+    align-items: center;
+}
+
+.slider_section .detailsbox .partners-grid {
+    display: grid;
+    padding-top: 20px;
+    grid-template-columns: 1fr 1fr;
+    width: 40%;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.slider_section .detailsbox .partners p{
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    color: #7c7b7b;
+    padding: 0px;
+    padding-top: 20px;
+}
+
+
+.slider_section .detailsbox .partners-grid img{
+    width: 80px;
+    height: auto;
+}
+
+.slider_section .name{
+    position: absolute;
+    background-color: aliceblue;
+    width:400px;
+    bottom: 0px;
+    transform: translateX(160px);
+    text-align: center;
+    font-family: "Poppins";
+    border-radius: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.slider_section .name h4{
+    letter-spacing: 5px;
+}
+.slider_section .name p{
+    font-weight: lighter;
+    color: #7c7b7b;
+}
+
+/* Why Section */
+.why_section {
+    display: flex;
+    padding: 90px;
+    padding-bottom: 0px;
+    background-color: #F2F7FF;
+}
+
+.why_section .why_infos h2{
+    width: 220px;
+    font-weight: bold;
+    display: flex;
+    letter-spacing: 10px;
+    margin-bottom: 20px;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+}
+
+.why_section .why_infos p{
+    width: 500px;
+    padding: 10px;
+    font-family:'Poppins', sans-serif ;
+    color: #7c7b7b;
+}
+
