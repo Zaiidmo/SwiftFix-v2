@@ -172,7 +172,7 @@ h1, h2{
 .why_section {
     display: flex;
     flex-direction:row ;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 90px 150px 90px 150px;
     background-color: #F2F7FF;
 }
@@ -382,9 +382,104 @@ footer .footerbot {
 
 /* About us section */
 
-.about p {
-    width: 500;
+.about {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 90px ;
+}
+.about .about-us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-left: 150px;
+    width: 600px;
+}
+
+.about .mission {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-right: 150px;
+    width: 600px;
+}
+
+.about-us p {
+    width: 600px;
+    line-height: 30px;
 }
 .about h2 {
-    font-size: large;
+    font-size: 70px;
+    font-weight: lighter;
+}
+.mission p {
+    width: 400px;
+    line-height: 30px;
+}
+
+/*Counts Sections*/
+.counts {
+    padding: 30px 90px;
+    background-color: #094b72;
+    background-image: url(/Images/Patterns.png);
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+.counts .counts-head {
+    text-align: center;
+    color: white;
+}
+.counts h4{
+    font-size: 40px;
+    margin: 0px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.counts p{
+margin: 0px;
+}
+
+.counts-bot {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    justify-content: center;
+    gap: 150px;   
+    align-items: flex-start;
+    gap: 15px;
+    left: 22%;
+    right: 22%;
+    margin-top: 50px;
+
+}
+.border {
+    border-right: 1px solid white ;
+    padding-right: 40px;
+}
+
+.testimonial {
+    padding: 30px 90px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-content: center; */
+    text-align: center;
+}
+.testimonial h3{
+    font-size: 48px;
+    font-weight: lighter;
+    letter-spacing: 5px;
+}
+.testimonial p {
+    width: 400px;
+    color: #7c7b7b;
+}
+.testimonial .clients {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
