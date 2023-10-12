@@ -365,7 +365,7 @@ footer .footerbot {
     justify-content: center;
     align-items: center;
     height: 60vh;
-    background-image: url(/Images/About.jpg);
+    background-image: url(./Images/About.jpg);
     background-color: black ;
     background-size: cover;
 }
@@ -427,7 +427,7 @@ footer .footerbot {
 .counts {
     padding: 30px 90px;
     background-color: #094b72;
-    background-image: url(/Images/Patterns.png);
+    background-image: url(./Images/Patterns.png);
     display: flex;
     flex-direction: column;
     align-content: center;
