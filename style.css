@@ -631,18 +631,75 @@ margin: 0px;
     display: flex;
     flex-direction: column;
     text-align: left;
-    input{
-        margin-bottom: 25px;
-        width: 100%;
-        height: 50px;
-        font-weight: bold;
-        letter-spacing: 2px;
-    }
-    .message-box{
-        width: 1000px;
-        height: 200px;
-    }
-    button {
-        width: 100px;
-    }
+    align-items: center;
+}
+.contact-form input{
+    margin-bottom: 25px;
+    width: 100%;
+    height: 50px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.message-box{
+    width: 100%;
+    height: 200px;
+}
+.contact-form .send-button {
+    width: 600px;
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 10px 55px;
+    background-color: #0355cc;
+    border: 5px solid #0355cc;
+    border-radius: 10px;
+    color: #ffffff;
+    margin-top: 15px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'poppins';
+    letter-spacing: 5px;
+}
+.contact-form .send-button:hover {
+    background-color: transparent;
+    color: #0355cc;
+}
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.informations {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 120%;
+}
+.informations .map iframe{
+    width: 500px;
+    height: 300px;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+}
+.infos {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+.infos img{
+    width: 50px;
+}
+.info-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 0px;
+    font-size: 15px;
+}
+.info-item h2{
+    font-style: normal;
+    font-weight: bolder;
+    font-family: 'poppins';
 }
