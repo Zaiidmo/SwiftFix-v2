@@ -107,7 +107,7 @@ h1, h2{
     font-size: 24px;
     align-items: center;
     letter-spacing: 0.5px;
-    color: #7c7b7b;
+    color: #595959;
 }
 .slider_section .detailsbox a:hover{
     background-color: transparent;
@@ -138,7 +138,7 @@ h1, h2{
 .slider_section .detailsbox .partners p{
     font-size: 15px;
     letter-spacing: 0.5px;
-    color: #7c7b7b;
+    color: #595959;
     padding: 0px;
     padding-top: 20px;
 }
@@ -160,12 +160,14 @@ h1, h2{
     border-radius: 20px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
-.slider_section .name h4{
+.slider_section .name h2{
     letter-spacing: 5px;
+    font-size: medium;
+    font-family: 'poppins';
 }
 .slider_section .name p{
     font-weight: lighter;
-    color: #7c7b7b;
+    color: #595959;
 }
 
 /* Why Section */
@@ -194,7 +196,7 @@ h1, h2{
     padding: 10px;
     padding-left: 0px;
     font-family:'Poppins', sans-serif ;
-    color: #7c7b7b;
+    color: #595959;
 }
 
 .why_section .why_services {
@@ -210,14 +212,14 @@ h1, h2{
     width: 200px;
     height: 200px;
 }
-.why_services .why_grids h4{
+.why_services .why_grids h3{
     margin: 5px;
-    
+    font-size: medium;    
 }
 .why_services .why_grids p{
     font-style: normal;
     font-size: small;
-    color: #7c7b7b;
+    color: #595959;
     padding-top: 0%;
 }
 
@@ -240,7 +242,7 @@ h1, h2{
 .questions p{
     width: 800px;
     font-size: 24px;
-    color: #7c7b7b;
+    color: #595959;
 }
 .questions a:hover{
     background-color: transparent;
@@ -291,8 +293,7 @@ footer {
     justify-content: space-between;
     background-color: #094B72;
     background-size: cover;
-    padding-top: 60px;
-    padding-bottom: 0px;
+    padding: 60px 100px 0px ;
     color: white;
 }
 
@@ -346,10 +347,13 @@ footer .footerbot {
 }
 .footerbot .social {
     display: flex;
+    gap: 10px;
     flex-direction: row;
     align-items: center;
 }
-
+.footerbot .social img {
+    width: 30px;
+}
 /* ------------- */
 /* Page "About Us" */ 
 /* Same Header */
@@ -476,10 +480,44 @@ margin: 0px;
 }
 .testimonial p {
     width: 400px;
-    color: #7c7b7b;
+    color: #595959;
+    margin: 0px;
 }
 .testimonial .clients {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    
+}
+.testimonial .client {
+    display: flex;
+    flex-direction: column;
+    width : auto;
+    align-items: center;
+}
+.testimonial .words{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+
+.client-img {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    gap: 10px;
+    text-align: left;
+    line-height: 30px;
+}
+.client-img h5{
+    margin: 0px;
+}
+.client-img .clientdetails {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
 }
