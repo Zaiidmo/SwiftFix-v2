@@ -297,7 +297,6 @@ footer {
     justify-content: space-between;
     background-color: #094B72;
     background-size: cover;
-    padding: 60px 100px 0px ;
     color: white;
 }
 
@@ -305,8 +304,7 @@ footer .footertop {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-left: 90px;
-    padding-right: 90px;
+    padding: 60px 200px 0px ;
 }
 
 footer a {
@@ -592,4 +590,26 @@ margin: 0px;
 .more {
     background-color: #F2F7FF;
     padding-bottom: 20px;
+}
+
+/* CONTACT PAGE */
+
+/* Cover */ 
+
+.contact-cover {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    background-image: url(./Images/Contact.jpg)
+    background-color: black ;
+    background-size: cover;
+}
+
+.service-cover h1{
+    font-size: 100px;
+    color: #ffffff;
+    z-index: 1000;
+    font-weight: lighter;
 }
