@@ -126,6 +126,7 @@ h1, h2{
 }
 .slider_section .detailsbox h1{
     font-weight: bold;
+    width: 500px;
     display: flex;
     align-items: center;
     letter-spacing: 1px;
@@ -748,3 +749,5 @@ margin: 0px;
 }
 
 /* END OF STYLESHEET */
+
+/* Media Queries */ 
